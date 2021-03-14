@@ -1,0 +1,60 @@
+body{
+    background-color: #1e212d;
+    font-family: "Courier New", monospace;
+}
+
+
+h1{
+    color: #faf3e0;
+    text-shadow: 0 0 6px #b68973;
+}
+
+
+h2{
+    color: #eabf9f;
+    text-shadow: 0 0 3px #b68973;
+}
+
+
+h3{
+    color: #faf3e0;
+    text-shadow: 0 0 3px #b68973;
+}
+
+
+h4{
+    color: #eabf9f;
+    text-shadow: 0 0 3px #b68973;
+}
+
+
+h5{
+    color: #faf3e0;
+    text-shadow: 0 0 3px #b68973;
+}
+
+
+h6{
+    color: #eabf9f;
+    text-shadow: 0 0 3px #b68973;
+}
+
+
+p{
+    color: #faf3e0;
+    text-shadow: 0 0 3px #b68973;
+}
+
+
+table{
+    color: #faf3e0;
+    text-shadow: 0 0 3px #b68973;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dashed;
+    border-color: #b68973;
+    border-width: 5px;
+    width: 10%;
+}
