@@ -1,6 +1,7 @@
 body{
     background-color: #1e212d;
     font-family: "Courier New", monospace;
+    margin: 0px;
 }
 
 
@@ -58,3 +59,45 @@ hr{
     border-width: 5px;
     width: 10%;
 }
+
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+    opacity: 0.6;
+}
+
+
+#jump_to{
+    height: 20px;
+    background-color: #1e212d;
+    text-align: right;
+    position: sticky; 
+    top: 0;
+}
+
+
+#jump_to p{
+
+    margin-top: 0px;
+
+    opacity: 0.5;
+    line-height: 20px;
+    
+}
+
+
+#jump_to p:hover{
+    opacity: 1;
+}
+
+
+#jump_to a{
+    color: #faf3e0;
+    text-decoration: none;
+    
+}
+
+
+#jump_to a:hover{
+    text-shadow: 0 0 10px #b68973;
+}
+
