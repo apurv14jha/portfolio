@@ -1,6 +1,6 @@
 body{
     background-color: #1e212d;
-    font-family: 'Nova Mono', monospace;
+    font-family: 'Syne Mono', monospace;
     margin: 0px;
 }
 
@@ -67,6 +67,7 @@ hr{
     text-align: right;
     position: sticky; 
     top: 0;
+    border-bottom: 1px solid #faf3e0;
 }
 
 
