@@ -2,6 +2,7 @@ body{
     background-color: #1e212d;
     font-family: 'Syne Mono', monospace;
     margin: 0px;
+    text-align: center;
 }
 
 
@@ -47,9 +48,16 @@ p{
 }
 
 
+ul{
+    color: #faf3e0;
+    text-shadow: 0 0 3px #b68973;
+}
+
+
 table{
     color: #faf3e0;
     text-shadow: 0 0 3px #b68973;
+    margin: auto;
 }
 
 hr{
@@ -61,39 +69,88 @@ hr{
 }
 
 
-#jump_to{
-    height: 20px;
+  .jump_btm {
+    background-color: #1e212d;
+    border: solid 1px #faf3e0;
+    color: #faf3e0;
+    text-shadow: 0 0 3px #b68973;
+    padding: 8px;
+    font-size: 10px;
+    text-align: right;
+    
+ }
+
+
+ .jump_to {
+    position: sticky;
+    top: 0;
     background-color: #1e212d;
     text-align: right;
-    position: sticky; 
-    top: 0;
-    border-bottom: 1px solid #faf3e0;
-}
+    display: inline-block;
+    height: fit-content;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    width: 100%;
+    border: solid 1px #faf3e0;
+ }
 
 
-#jump_to p{
-
-    margin-top: 0px;
-
-    opacity: 0.5;
-    line-height: 20px;
-    
-}
-
-
-#jump_to p:hover{
-    opacity: 1;
-}
+ .jump_menu {
+    display: none;
+    min-width: 160px;
+    z-index: 1;
+    padding: 10px;
+    text-align: right;
+ }
 
 
-#jump_to a{
+ .jump_links {
     color: #faf3e0;
+    text-shadow: 0 0 3px #b68973;
+    padding: 8px;
     text-decoration: none;
-    
+    display: block;
+    font-size: 10px;
+    border-bottom: 1px solid #faf3e0;
+    text-align: right;
+ }
+
+
+ .jump_links:hover {
+    background-color: #474f6b;
+ }
+
+
+ .jump_to:hover .jump_menu {
+    display: block;
+ }
+
+
+ .jump_to:hover .jump_btm {
+    background-color: #33384d;
+ }
+
+
+#top_image{
+    width: 100%;
+    height: auto;
 }
 
 
-#jump_to a:hover{
-    text-shadow: 0 0 10px #b68973;
+#name_intro{
+    padding: 60px;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+
+#company_logo000{
+    width: 25%;
+}
+
+
+#company_logo001{
+    width: 25%;
 }
 
