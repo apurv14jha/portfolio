@@ -48,12 +48,6 @@ p{
 }
 
 
-ul{
-    color: #faf3e0;
-    text-shadow: 0 0 3px #b68973;
-}
-
-
 table{
     color: #faf3e0;
     text-shadow: 0 0 3px #b68973;
@@ -67,68 +61,6 @@ hr{
     border-width: 5px;
     width: 10%;
 }
-
-
-  .jump_btm {
-    background-color: #1e212d;
-    border: solid 1px #faf3e0;
-    color: #faf3e0;
-    text-shadow: 0 0 3px #b68973;
-    padding: 8px;
-    font-size: 10px;
-    text-align: right;
-    
- }
-
-
- .jump_to {
-    position: sticky;
-    top: 0;
-    background-color: #1e212d;
-    text-align: right;
-    display: inline-block;
-    height: fit-content;
-    margin-top: 150px;
-    margin-bottom: 60px;
-    width: 100%;
-    border: solid 1px #faf3e0;
- }
-
-
- .jump_menu {
-    display: none;
-    min-width: 160px;
-    z-index: 1;
-    padding: 10px;
-    text-align: right;
- }
-
-
- .jump_links {
-    color: #faf3e0;
-    text-shadow: 0 0 3px #b68973;
-    padding: 8px;
-    text-decoration: none;
-    display: block;
-    font-size: 10px;
-    border-bottom: 1px solid #faf3e0;
-    text-align: right;
- }
-
-
- .jump_links:hover {
-    background-color: #474f6b;
- }
-
-
- .jump_to:hover .jump_menu {
-    display: block;
- }
-
-
- .jump_to:hover .jump_btm {
-    background-color: #33384d;
- }
 
 
 #top_image{
@@ -145,12 +77,21 @@ hr{
 }
 
 
-#company_logo000{
-    width: 25%;
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
 }
 
 
-#company_logo001{
-    width: 25%;
+img {
+    width: 50px;
+    height: 50px;
 }
 
+
+.caption {
+    display: block;
+    color: #faf3e0;
+}
