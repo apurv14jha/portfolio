@@ -83,6 +83,7 @@ div.item {
     display: inline-block;
     text-align: center;
     width: 120px;
+    margin: 20px;
 }
 
 
@@ -127,6 +128,12 @@ img {
       margin: 80px auto 60px auto;
   }
 
+
+  .links{
+      margin: auto;
+      margin-bottom: 50px;
+
+  }
 
 
 
