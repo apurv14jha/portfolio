@@ -132,8 +132,13 @@ img {
   .links{
       margin: auto;
       margin-bottom: 50px;
-
   }
+
+
+.copyright {
+    color: #faf3e0;
+    font-size: 0.75rem;
+    padding: 20px 0;
 
 
 
