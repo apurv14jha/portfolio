@@ -54,6 +54,7 @@ table{
     margin: auto;
 }
 
+
 hr{
     border-style: none;
     border-top-style: dashed;
@@ -95,3 +96,37 @@ img {
     display: block;
     color: #faf3e0;
 }
+
+
+.btn {
+    background: #b68973;
+    background-image: -webkit-linear-gradient(top, #b68973, #eabf9f);
+    background-image: -moz-linear-gradient(top, #b68973, #eabf9f);
+    background-image: -ms-linear-gradient(top, #b68973, #eabf9f);
+    background-image: -o-linear-gradient(top, #b68973, #eabf9f);
+    background-image: linear-gradient(to bottom, #b68973, #eabf9f);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 10px;
+    text-shadow: 2px 2px 3px black;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+  }
+  
+
+  .btn:hover {
+    background: #eabf9f;
+    text-decoration: none;
+  }
+
+
+  .button{
+      margin: 80px auto 60px auto;
+  }
+
+
+
+
