@@ -107,6 +107,7 @@ img {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 .button {
   margin: 80px auto 60px auto;
 }
@@ -115,6 +116,12 @@ img {
   margin: auto;
   margin-bottom: 50px;
 }
+=======
+  .links{
+      margin: auto;
+      margin-bottom: 50px;
+  }
+>>>>>>> 95de80b920a6cfcabd852ee478f2b5bdda4d9ec2
 
 .copyright {
   color: #faf3e0;
@@ -122,10 +129,19 @@ img {
   padding: 20px 0;
 }
 
+<<<<<<< HEAD
 .fab {
   font-size: 50px;
   color: #faf3e0;
 }
+=======
+.copyright {
+    color: #faf3e0;
+    font-size: 0.75rem;
+    padding: 20px 0;
+
+
+>>>>>>> 95de80b920a6cfcabd852ee478f2b5bdda4d9ec2
 
 .fas {
   font-size: 50px;
